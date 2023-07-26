@@ -1,0 +1,68 @@
+/* Add this CSS to your stylesheet */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.api-list {
+  list-style: none;
+  padding: 0;
+}
+
+.api-item {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.api-item h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.api-item p {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Added align-items to center the buttons vertically */
+  flex-wrap: wrap; /* Wrap the buttons if they exceed the container width */
+  margin-top: 20px;
+}
+
+.pagination button {
+  border: none;
+  background-color: transparent;
+  padding: 8px 12px;
+  margin: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination button:hover {
+  background-color: #f0f0f0;
+}
